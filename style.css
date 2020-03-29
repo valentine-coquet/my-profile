@@ -1,0 +1,118 @@
+/COLOURS AND FONTS/
+
+body {
+background-color: rgba(216, 203, 199, 1);
+color: rgb(175,0,42);
+font-family:'Slabo 27px', serif;
+}
+
+div{
+	width:900px;
+	margin: 30px auto;
+	background:  white;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    border-radius: 3px;
+    text-align: center;
+    padding-bottom: 30px;
+ }
+
+img {
+    width: 100px;
+    height: 120px;
+    box-shadow: 0 15px 35px rgba(216, 203, 199, 1);
+}
+
+h1 {
+font-family:'Liu Jian Mao Cao', cursive;
+text-align: center;
+color: rgba(51, 103, 59, 1);
+font-weight: 120;
+font-size: x-large;
+letter-spacing: 8px;
+text-transform: uppercase;
+}
+
+h2 {
+	color: rgba(204, 63, 12, 1);
+}
+
+h3{
+	color: rgba(25, 35, 26, 1);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(222, 124, 90, 1);
+}
+
+
+/RESPONSIVE DESIGN/ 
+
+.container{ 
+width: 700px; 
+margin: 40px auto;
+}
+
+@media (max-width: 760px){
+  .container{
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+  .container{
+	width: 400px;
+	}
+}
+
+
+/CUSTOM DESIGN WITH CLASS/
+.container{
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white
+	padding: 30px;
+	box-shadow: 0px 10px 10px rgb(0,0,0,.5);
+	border-radius: 3px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.btn-pink{
+	background-color: rgb(222, 124, 90, 1);
+	color: white;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+
+.btn-pink:hover {
+    background-color: rgba(51, 103, 59, 1);
+    color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+   display: inline;
+   padding:10px;
+}
+
+.list-inline i{
+   font-size: 50px;
+   color: rgb(222, 124, 90, 1);
+}
+
+.list-inline i:hover{
+   color: rgba(51, 103, 59, 1);
+}
